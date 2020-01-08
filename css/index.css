@@ -134,3 +134,7 @@ html,
 body {
   height: 100%;
 }
+header img {
+  height: 30%;
+  width: 30%;
+}
