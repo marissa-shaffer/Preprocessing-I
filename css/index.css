@@ -134,6 +134,9 @@ html,
 body {
   height: 100%;
 }
+header div {
+  background-color: lightgrey;
+}
 header img {
   height: 30%;
   width: 30%;
