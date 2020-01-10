@@ -190,8 +190,9 @@ header div button:hover {
   padding: 2%;
 }
 .section-two .listen {
-  width: 67% padding-;
+  width: 65%;
+  padding-right: 2%;
 }
 .section-two .skills {
-  width: 27%;
+  width: 30%;
 }
