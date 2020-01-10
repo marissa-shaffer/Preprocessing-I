@@ -133,8 +133,11 @@ table {
 html,
 body {
   height: 100%;
+  width: 80%;
   font-family: helvetica;
-  margin: 2%;
+  margin-top: 1%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 header nav {
   display: flex;
