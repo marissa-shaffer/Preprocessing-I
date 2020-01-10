@@ -134,7 +134,7 @@ html,
 body {
   height: 100%;
   font-family: helvetica;
-  margin: 10%;
+  margin: 2%;
 }
 header nav {
   display: flex;
