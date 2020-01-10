@@ -180,7 +180,18 @@ header div button {
   padding-right: 2%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
+  margin-bottom: 5%;
 }
 header div button:hover {
   background-color: black;
+}
+.section-two {
+  display: flex;
+  padding: 2%;
+}
+.section-two .listen {
+  width: 67% padding-;
+}
+.section-two .skills {
+  width: 27%;
 }
