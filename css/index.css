@@ -146,7 +146,7 @@ header nav a {
   color: black;
   font-weight: bold;
 }
-header nav a a:hover {
+header nav a:hover {
   color: grey;
 }
 header div {
@@ -161,4 +161,26 @@ header div h1 {
   font-size: 300%;
   padding-top: 1%;
   padding-bottom: 1%;
+}
+header div h2 {
+  font-size: 150%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid grey;
+}
+header div p {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+header div button {
+  background-color: darkgray;
+  color: white;
+  border-radius: 5%;
+  font-size: 150%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+header div button:hover {
+  background-color: black;
 }
