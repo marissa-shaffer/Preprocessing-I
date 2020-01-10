@@ -62,6 +62,11 @@ html, body {
 	margin-left:10%;
 }
 
+.heading-two{
+	font-size: 200%;
+	font-weight: bold;
+	padding-bottom: 1%;
+
 header{
 	nav{
 		display:flex;
@@ -95,14 +100,14 @@ header{
 		}
 
 		h2{
-			font-size:150%;
-			padding-bottom: 2%;
-			border-bottom: 1px solid grey;
+			.heading-two()
+		
 		}
 
 		p{
 			padding-top: 2%;
 			padding-bottom:2%;
+			border-top: 1px solid grey;
 		}
 
 		button{
@@ -123,15 +128,14 @@ header{
 	}
 }
 
+}
 .section-two{
 	display: flex;
 	padding-top: 2%;
 	padding-bottom: 2%;
 
 	h2{
-		font-size: 200%;
-		font-weight: bolder;
-		padding-bottom: 1%;
+		.heading-two()
 	}
 
 	p{
@@ -160,9 +164,7 @@ header{
 
 .section-three{
 	h2{
-		font-size:200%;
-		font-weight: bold;
-		padding-bottom: 1%;
+		.heading-two()
 	}
 	table{
 		width:100%;

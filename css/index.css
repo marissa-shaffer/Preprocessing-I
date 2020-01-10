@@ -188,6 +188,11 @@ header div button {
 header div button:hover {
   background-color: black;
 }
+.heading-two {
+  font-size: 200%;
+  font-weight: bold;
+  padding-bottom: 1%;
+}
 .section-two {
   display: flex;
   padding-top: 2%;
@@ -195,7 +200,7 @@ header div button:hover {
 }
 .section-two h2 {
   font-size: 200%;
-  font-weight: bolder;
+  font-weight: bold;
   padding-bottom: 1%;
 }
 .section-two p {
