@@ -1,1 +1,257 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 80%;
+  font-family: helvetica;
+  margin-top: 1%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav a {
+  margin: 2%;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+header nav a:hover {
+  color: grey;
+}
+header div {
+  background-color: lightgrey;
+  padding: 2%;
+}
+header div img {
+  height: 30%;
+  width: 30%;
+}
+header div h1 {
+  font-size: 300%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+header div h2 {
+  font-size: 150%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid grey;
+}
+header div p {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+header div button {
+  background-color: darkgray;
+  color: white;
+  border-radius: 5%;
+  font-size: 150%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-bottom: 5%;
+}
+header div button:hover {
+  background-color: black;
+}
+.heading-two {
+  font-size: 200%;
+  font-weight: bold;
+  padding-bottom: 1%;
+}
+.section-two {
+  display: flex;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.section-two h2 {
+  font-size: 200%;
+  font-weight: bold;
+  padding-bottom: 1%;
+}
+.section-two p {
+  line-height: 1.5;
+}
+.section-two .listen {
+  width: 48%;
+  padding-right: 2%;
+}
+.section-two .skills {
+  width: 48%;
+  padding-left: 4%;
+}
+.section-two li {
+  border: 1px solid lightgray;
+  padding-left: 7%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  font-size: 105%;
+  border-radius: 2%;
+}
+.section-three h2 {
+  font-size: 200%;
+  font-weight: bold;
+  padding-bottom: 1%;
+}
+.section-three table {
+  width: 100%;
+}
+.section-three table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.section-three table th {
+  font-size: 110%;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 1px solid lightgrey;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+.section-three table td {
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid lightgrey;
+}
+footer {
+  padding: 4%;
+  text-align: center;
+  background: darkgrey;
+  color: white;
+  font-weight: bold;
+}
