@@ -61,7 +61,7 @@ html, body {
 	margin-right:10%;
 	margin-left:10%;
 }
-
+@fontcolor:white;
 .heading-two{
 	font-size: 200%;
 	font-weight: bold;
@@ -101,7 +101,6 @@ header{
 
 		h2{
 			.heading-two()
-		
 		}
 
 		p{
@@ -112,7 +111,7 @@ header{
 
 		button{
 			background-color: darkgray;
-			color: white;
+			color: @fontcolor;
 			border-radius:5%;
 			font-size: 150%;
 			padding-left: 2%;
@@ -194,7 +193,7 @@ footer{
 	padding: 4%;
 	text-align:center;
 	background: darkgrey;
-	color: white;
+	color: @fontcolor;
 	font-weight:bold;
 
 }
