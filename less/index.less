@@ -55,15 +55,39 @@ table {
 
 html, body {
 	height: 100%;
+	font-family: helvetica;
+	margin: 1%;
 }
 
 header{
+	nav{
+		display:flex;
+		justify-content: flex-end;
+
+		a{
+			margin: 2%;
+			text-decoration: none;
+			color:black;
+			font-weight:bold;
+			
+			a:hover{
+				color:grey;	
+			}
+		}
+	}
 	div{
 		background-color: lightgrey;
+		padding:2%;
 	
 		img{
 		height: 30%;
 		width: 30%;
+		}
+
+		h1{
+			font-size: 300%;
+			padding-top:1%;
+			padding-bottom:1%;
 		}
 	}
 }

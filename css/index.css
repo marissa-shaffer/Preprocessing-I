@@ -133,11 +133,32 @@ table {
 html,
 body {
   height: 100%;
+  font-family: helvetica;
+  margin: 1%;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav a {
+  margin: 2%;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+header nav a a:hover {
+  color: grey;
 }
 header div {
   background-color: lightgrey;
+  padding: 2%;
 }
 header div img {
   height: 30%;
   width: 30%;
+}
+header div h1 {
+  font-size: 300%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
